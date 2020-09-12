@@ -1,0 +1,20 @@
+{
+    "name": "ziczac/eav-laravel",
+    "description": "EAV module for laravel",
+    "type": "php",
+    "authors": [
+        {
+            "name": "ZicZac Solution",
+            "email": "contact@ziczacsol.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.0 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ziczac\\eav-laravel\\": "src/"
+        }
+    }
+}
