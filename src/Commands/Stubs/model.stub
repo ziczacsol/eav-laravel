@@ -1,0 +1,39 @@
+<?php
+
+namespace App\Entities;
+
+use Illuminate\Database\Eloquent\Model;
+use App\Eav\AttributesTrait;
+use App\Eav\Eloquents\BaseAttributeEntity;
+
+class DummyClass extends BaseAttributeEntity
+{
+    use AttributesTrait;
+
+    /**
+     * The table associated with the entity.
+     *
+     * @var string
+     */
+    protected $table = '$TABLE_NAME';
+
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'entity_type_id',
+        'store_id',
+    ];
+
+    /**
+     * Implement abstract function set entity type code
+     *
+     * @return string
+     */
+    public function entityTypeCode(): string
+    {
+        return "$ENTITY";
+    }
+}
