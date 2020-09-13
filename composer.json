@@ -9,7 +9,6 @@
             "email": "contact@ziczacsol.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.0 || ^8.0",
         "laravel/framework": "^8.0",
