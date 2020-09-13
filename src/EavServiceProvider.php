@@ -15,9 +15,9 @@ class EavServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        'App\Eav\Commands\MakeEntity',
-        'App\Eav\Commands\MakeEntityModel',
-        'App\Eav\Commands\MakeEntityMigration',
+        'Commands\MakeEntity',
+        'Commands\MakeEntityModel',
+        'Commands\MakeEntityMigration',
     ];
 
     /**
