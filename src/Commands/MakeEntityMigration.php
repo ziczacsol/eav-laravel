@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Eav\Commands;
+namespace Eav\Commands;
 
 use Illuminate\Database\Console\Migrations\MigrateMakeCommand;
 use Illuminate\Support\Composer;

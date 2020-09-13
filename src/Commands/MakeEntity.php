@@ -1,6 +1,6 @@
 <?php
 
-namespace Commands;
+namespace Eav\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

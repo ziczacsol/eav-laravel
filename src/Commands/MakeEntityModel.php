@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Eav\Commands;
+namespace Eav\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Str;

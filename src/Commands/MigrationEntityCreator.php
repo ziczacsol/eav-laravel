@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Eav\Commands;
+namespace Eav\Commands;
 
 use Illuminate\Database\Migrations\MigrationCreator;
+use Illuminate\Filesystem\Filesystem;
 
 class MigrationEntityCreator extends MigrationCreator
 {
@@ -21,6 +22,12 @@ class MigrationEntityCreator extends MigrationCreator
      * @var $type
      */
     protected $type;
+
+    public function __construct(Filesystem $filesystem, $customPath = null)
+    {
+        // FIXME https://github.com/laravel/framework/issues/31978
+        parent::__construct($filesystem, $customPath);
+    }
 
     /**
      * Get the path to the stubs.
