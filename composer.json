@@ -2,7 +2,7 @@
     "name": "ziczac/eav-laravel",
     "description": "EAV module for laravel",
     "type": "php",
-    "license": "aaa",
+    "license": "MIT",
     "authors": [
         {
             "name": "ZicZac Solution",
