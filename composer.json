@@ -18,5 +18,12 @@
         "psr-4": {
             "Eav\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eav\\EavServiceProvider"
+            ]
+        }
     }
 }
