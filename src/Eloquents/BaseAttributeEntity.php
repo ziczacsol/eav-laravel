@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Eav\Eloquents;
+namespace Eav\Eloquents;
 
-use App\Eav\AttributesTrait;
+use Eav\AttributesTrait;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

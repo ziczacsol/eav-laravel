@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Entities;
+namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use App\Eav\AttributesTrait;
-use App\Eav\Eloquents\BaseAttributeEntity;
+use Eav\AttributesTrait;
+use Eav\Eloquents\BaseAttributeEntity;
 
 class DummyClass extends BaseAttributeEntity
 {

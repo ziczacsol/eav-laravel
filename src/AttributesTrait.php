@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Eav;
+namespace Eav;
 
 /**
  * Class AttributesTrait

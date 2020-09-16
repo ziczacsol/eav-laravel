@@ -49,7 +49,6 @@ class MakeEntity extends Command
     public function handle()
     {
         $name = $this->argument('name');
-        dd($name);
 
         if ( !is_null($this->option('types'))) {
             $this->types = explode(',', $this->option('types'));
@@ -61,7 +60,7 @@ class MakeEntity extends Command
         // Create controller
         $this->call('make:controller', [
             'name'    => "{$name}Controller",
-            '--model' => "Entities/{$name}",
+            '--model' => "{$name}",
             '--api'   => true,
         ]);
 

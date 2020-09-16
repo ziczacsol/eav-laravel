@@ -36,7 +36,7 @@ class MakeEntityModel extends GeneratorCommand
 
     protected function getDefaultNamespace($rootNamespace)
     {
-        return $rootNamespace . '\Entities';
+        return $rootNamespace . '\Models';
     }
 
     protected function replaceNamespace(&$stub, $name)

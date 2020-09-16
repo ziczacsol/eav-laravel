@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Eav;
+namespace Eav;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Query\Builder as Query;

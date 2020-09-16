@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Eav;
+namespace Eav;
 
-use App\Eav\EavModel;
+use Eav\EavModel;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Http\Request;
@@ -13,7 +13,7 @@ use Illuminate\Http\Request;
 class EntityObserve
 {
     /**
-     * @var App\Eav\EavModel
+     * @var Eav\EavModel
      */
     private static $eavModel;
 

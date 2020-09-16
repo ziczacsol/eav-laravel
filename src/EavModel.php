@@ -1,12 +1,12 @@
 <?php
 
-namespace App\Eav;
+namespace Eav;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Database\Eloquent\Collection;
-use App\Eav\Eloquents\Attribute;
+use Eav\Eloquents\Attribute;
 
 /**
  * Class EavModel
