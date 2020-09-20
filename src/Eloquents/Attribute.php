@@ -2,7 +2,7 @@
 
 namespace Eav\Eloquents;
 
-use App\Entities\EntityType;
+use Eav\Eloquents\EntityType;
 use Illuminate\Database\Eloquent\Model;
 
 /**
