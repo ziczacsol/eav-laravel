@@ -20,6 +20,6 @@ class EntityType extends Model
 
     public function attributes()
     {
-        return $this->belongsToMany(Attribute::class, 'entity_attribute', 'entity_type_id', 'attribute_id');
+        return $this->belongsToMany(Attribute::class, 'entity_attribute', 'entity_id', 'attribute_id');
     }
 }
