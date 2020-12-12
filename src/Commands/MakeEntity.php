@@ -94,7 +94,7 @@ class MakeEntity extends Command
 
             $this->call('make:model', ['name' => 'EntityAttribute']);
         }
-        return;
+
         // Create migration of model
         $this->call('eav:migration', ['name' => 'create_' . Str::snake($name) . '_entity_table']);
 
