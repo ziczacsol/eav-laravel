@@ -1,0 +1,29 @@
+{
+    "name": "ziczac/eav-laravel",
+    "description": "EAV module for laravel",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ZicZac Solution",
+            "email": "contact@ziczacsol.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0 || ^8.0",
+        "laravel/framework": "^8.0",
+        "laravel/tinker": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Eav\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Eav\\EavServiceProvider"
+            ]
+        }
+    }
+}
