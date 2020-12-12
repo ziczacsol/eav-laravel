@@ -18,7 +18,7 @@ class DummyClass extends Migration
             $table->string('name');
             $table->string('code');
             $table->string('backend_type');
-            $table->string('frondend_input');
+            $table->string('frontend_input');
             $table->boolean('is_required')->default(0);
             $table->boolean('is_unique')->default(0);
             $table->boolean('status')->default(1);
