@@ -1,11 +1,11 @@
 <?php
 
-namespace Eav;
+namespace Ziczac\EavLaravel;
 
 use Illuminate\Support\ServiceProvider;
-use Eav\EntityObserve;
-use Eav\EavModel;
-use Eav\GlobalScope;
+use Ziczac\EavLaravel\EntityObserve;
+use Ziczac\EavLaravel\EavModel;
+use Ziczac\EavLaravel\GlobalScope;
 
 class EavServiceProvider extends ServiceProvider
 {
@@ -15,9 +15,9 @@ class EavServiceProvider extends ServiceProvider
      * @var array
      */
     protected $commands = [
-        'Eav\Commands\MakeEntity',
-        'Eav\Commands\MakeEntityModel',
-        'Eav\Commands\MakeEntityMigration',
+        'Ziczac\EavLaravel\Commands\MakeEntity',
+        'Ziczac\EavLaravel\Commands\MakeEntityModel',
+        'Ziczac\EavLaravel\Commands\MakeEntityMigration',
     ];
 
     /**

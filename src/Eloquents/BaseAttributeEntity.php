@@ -1,8 +1,8 @@
 <?php
 
-namespace Eav\Eloquents;
+namespace Ziczac\EavLaravel\Eloquents;
 
-use Eav\AttributesTrait;
+use Ziczac\EavLaravel\AttributesTrait;
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

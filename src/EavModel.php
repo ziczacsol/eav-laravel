@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Ziczac\EavLaravel;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Builder;

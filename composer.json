@@ -16,13 +16,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Eav\\": "src"
+            "Ziczac\\EavLaravel\\": "src"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eav\\EavServiceProvider"
+                "Ziczac\\EavLaravel\\EavServiceProvider"
             ]
         }
     }

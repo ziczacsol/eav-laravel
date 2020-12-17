@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Ziczac\EavLaravel;
 
 /**
  * Class AttributesTrait

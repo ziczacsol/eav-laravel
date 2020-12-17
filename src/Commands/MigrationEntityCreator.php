@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Commands;
+namespace Ziczac\EavLaravel\Commands;
 
 use Illuminate\Database\Migrations\MigrationCreator;
 use Illuminate\Filesystem\Filesystem;

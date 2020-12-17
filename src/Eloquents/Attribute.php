@@ -1,8 +1,8 @@
 <?php
 
-namespace Eav\Eloquents;
+namespace Ziczac\EavLaravel\Eloquents;
 
-use App\Entities\EntityType;
+use Ziczac\EavLaravel\Eloquents\EntityType;
 use Illuminate\Database\Eloquent\Model;
 
 /**
