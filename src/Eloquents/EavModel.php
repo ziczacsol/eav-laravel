@@ -10,7 +10,11 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Storage;
 
-class BaseAttributeEntity extends Model
+/**
+ * Class EavModel
+ * The base class for model can extends to using EAV
+ */
+class EavModel extends Model
 {
     use AttributesTrait;
 
