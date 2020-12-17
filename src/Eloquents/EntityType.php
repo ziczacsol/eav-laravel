@@ -16,7 +16,7 @@ class EntityType extends Model
      *
      * @var string
      */
-    protected $table = 'entity_type';
+    protected $table = 'entity';
 
     public function attributes()
     {

@@ -65,7 +65,7 @@ class BaseAttributeEntity extends Model
      */
     public function entityTypeCode(): string
     {
-        return "";
+        return $this->belongsTo(EntityType::class, 'entity_type_id', 'id');
     }
 
     /**
@@ -75,7 +75,7 @@ class BaseAttributeEntity extends Model
      */
     public function getEavAttributes()
     {
-        $entityTypeCode = $this->entityTypeCode();
+        $entityTypeCode = $this->entityTypeCode->code;
 
         return Attribute::whereHas('entityTypes', function (Builder $query) use ($entityTypeCode) {
             $query->where('entity_type_code', $entityTypeCode);
