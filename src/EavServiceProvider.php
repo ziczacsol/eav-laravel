@@ -28,7 +28,7 @@ class EavServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->singleton(GlobalScope::class, function ($app) {
-            return new GlobalScope(new EavModel());
+            return new GlobalScope();
         });
         $this->app->singleton(EntityObserve::class, function ($app) {
             return new EntityObserve(new EavModel(), $app['events']);
