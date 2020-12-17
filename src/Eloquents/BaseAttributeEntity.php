@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Storage;
  * Class EavModel
  * The base class for model can extends to using EAV
  */
-class EavModel extends Model
+class BaseAttributeEntity extends Model
 {
     use AttributesTrait;
 
