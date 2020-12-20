@@ -2,12 +2,12 @@
 
 namespace Eav\Eloquents;
 
+use Eav\Definitions;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class ProductsEntity.
  *
- * @package namespace App\Entities;
  */
 class EntityType extends Model
 {
@@ -16,7 +16,7 @@ class EntityType extends Model
      *
      * @var string
      */
-    protected $table = 'entity_type';
+    protected $table = Definitions::ENTITY_TYPE_TABLE;
 
     public function attributes()
     {

@@ -2,7 +2,8 @@
 
 namespace Eav\Eloquents;
 
-use App\Entities\EntityType;
+use Eav\Eloquents\EntityType;
+use Eav\Definitions;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -17,7 +18,7 @@ class Attribute extends Model
      *
      * @var string
      */
-    protected $table = 'attributes';
+    protected $table = Definitions::ATTRIBUTE_TABLE;
 
     public function entityTypes()
     {

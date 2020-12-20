@@ -78,7 +78,7 @@ class BaseAttributeEntity extends Model
         $entityTypeCode = $this->entityTypeCode();
 
         return Attribute::whereHas('entityTypes', function (Builder $query) use ($entityTypeCode) {
-            $query->where('entity_type_code', $entityTypeCode);
+            $query->where('code', $entityTypeCode);
         })->where('status', 1)->get();
     }
 
